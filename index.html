@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yolculuk Ücret Hesaplama</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Yolculuk Ücret Hesaplama</h1>
+    <div id="map"></div>
+    <div id="floating-panel">
+        <strong>Başlangıç Konumu:</strong>
+        <input id="origin-input" type="text" placeholder="Başlangıç">
+        <strong>Varış Konumu:</strong>
+        <input id="destination-input" type="text" placeholder="Varış">
+        <button id="submit">Yolculuk Hesapla</button>
+    </div>
+    <div id="result"></div>
+
+    <script src="scripts.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDttMN5Dn161lJnEHeYQTasLutrkTQpw88&libraries=places&callback=initMap"></script>
+</body>
+</html>
