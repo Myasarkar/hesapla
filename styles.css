@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+input[type="text"] {
+    width: calc(50% - 20px);
+    padding: 8px;
+    margin: 5px auto; /* Dikey hizalama */
+    display: block; /* Satır sonu geçişi sağlamak için */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#map {
+    display: none;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+#floating-panel {
+    text-align: center; /* Yatay hizalama */
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
