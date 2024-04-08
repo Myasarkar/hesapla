@@ -27,6 +27,10 @@ button {
 
 #floating-panel {
     text-align: center; /* Yatay hizalama */
+    position: fixed; /* Sabitleme */
+    top: 50%; /* Üst kısmını ekranın ortasına getirme */
+    left: 50%; /* Sol kısmını ekranın ortasına getirme */
+    transform: translate(-50%, -50%); /* Dikdörtgenin ortasını ekranın ortasına getirme */
 }
 
 #result {
