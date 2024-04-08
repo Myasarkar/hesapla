@@ -1,0 +1,15 @@
+# Site yapılandırması
+title: My Jekyll Site
+description: A simple Jekyll site
+baseurl: "" # Sitelerin kök dizininden servis edildiği durumda boş bırakın
+
+# Tema ve stil
+theme: my-theme
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Ek yapılandırmalar
+markdown: kramdown
+permalink: pretty
+timezone: UTC
