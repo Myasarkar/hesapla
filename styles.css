@@ -4,7 +4,7 @@ body {
 }
 
 input[type="text"] {
-    width: calc(100% - 20px); /* Yatay uzunluğu iki katına çıkarıldı */
+    width: calc(50% - 20px);
     padding: 8px;
     margin: 5px auto; /* Dikey hizalama */
     display: block; /* Satır sonu geçişi sağlamak için */
@@ -25,14 +25,16 @@ button {
     margin-bottom: 20px;
 }
 
-#container {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Giriş kutularını yatayda hizalar */
-    margin-top: 20px; /* Haritanın altındaki boşluğu ayarlar */
+#floating-panel {
+    text-align: center; /* Yatay hizalama */
 }
 
 #result {
     margin-top: 20px;
     font-weight: bold;
+}
+
+#header {
+    text-align: center;
+    margin-bottom: 20px; /* Başlık ile diğer içerik arasına boşluk ekler */
 }
